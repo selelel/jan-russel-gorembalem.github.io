@@ -169,18 +169,17 @@ button:hover{
 /*2nd Section*/
 .overview{
     font-family: "Roboto Mono", sans-serif;
-
 }
+
 
 .two-content{
     display: flex;
 }
 
 .overview h1{
-    margin: 10px;
+    margin: 5px;
     border: 1px solid red;
     width: fit-content;
-    font-size: 2.5rem;
 }
 
 .overview-content{
@@ -191,21 +190,27 @@ button:hover{
 .overview-content2{
     border: 1px solid red;
     width: 50%;
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.overview-content2 h2{
-    margin: 10px;
-    border: 1px solid red;
+.overview-box h2{
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
     color: var(--default-color);
     text-align: center;
     width: fit-content;
-    font-size: 1.5em;
+    flex-wrap: wrap;
+    font-size: 30%;;
+    background-color: aliceblue;
+
 }
 
-.overview-box-content-two{
-    border: 1px solid red;
-    background-color: aliceblue;
+.overview-box{
+    border-radius: 3px;
+    margin: 10px;
 
 }
 
@@ -229,7 +234,7 @@ button:hover{
     background-color: var(--default-color);
     border-radius: 3px;
     height: auto;
-    width: 50vw;
+    width: 55vw;
     padding: 1.5em;
     min-width: 300px;  
 }
