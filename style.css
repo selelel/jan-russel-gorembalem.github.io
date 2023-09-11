@@ -10,14 +10,15 @@
 
 body{
     overflow-x: hidden;
-    background-color: rgb(24, 33, 44);
+    background-color: var(--background-color);
 
 }
 
 
 :root{
     --text1_size: 16px;
-    --text1_color: white;
+    --overview: rgb(0, 78, 113);
+    --background-color:  rgb(24, 33, 44);
 }
 
 header{
@@ -173,13 +174,13 @@ button:hover{
     top: 200px;
 }
 
-
+/* animation transition for overview*/
 .box-overview{
     display:block;
     position: relative;
     margin-left:auto ;
     margin-right: auto;
-    background-color: var(--text1_color);
+    background-color: var(--overview);
     border-radius: 3px;
     height: 30vh;
     width: 50vw;
